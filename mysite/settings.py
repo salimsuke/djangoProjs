@@ -25,7 +25,8 @@ SECRET_KEY = '=*)+8o6c#ga$v_#=q377u&piotbeur$7$f%6jw0ns#p43zq(80'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+
 
 
 # Application definition
@@ -135,4 +136,3 @@ MIDDLEWARE_CLASSES = [
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
